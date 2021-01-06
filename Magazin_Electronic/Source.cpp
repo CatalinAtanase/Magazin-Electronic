@@ -32,28 +32,28 @@ public:
 			this->nume = nume;
 		}
 		else {
-			this->nume = "Produs fara nume"
+			this->nume = "Produs fara nume";
 		}
 
-		if (cod != " ") {
+		if (cod != 0) {
 			this->cod = cod;
 		}
 		else {
-			this->cod = "Acest produs nu are cod."
+			this->cod = 0;
 		}
 
 		if (firma != " ") {
 			this->firma = firma;
 		}
 		else {
-			this->firma = "Firma neinregistrata."
+			this->firma = "Firma neinregistrata.";
 		}
 
 		if (descriere != " ") {
 			this->descriere = descriere;
 		}
 		else {
-			this->descriere = "Acest produs nu are descriere."
+			this->descriere = "Acest produs nu are descriere.";
 		}
 
 		if (pret >= 0)

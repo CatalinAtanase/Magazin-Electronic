@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\Faculta\An_2\S1\Poo\proiect\Code\Magazin-Electronic\Magazin_Electronic\Source.cpp(108,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Magazin_Electronic.vcxproj -> D:\Faculta\An_2\S1\Poo\proiect\Code\Magazin-Electronic\x64\Debug\Magazin_Electronic.exe
