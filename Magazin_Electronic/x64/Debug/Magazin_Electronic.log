@@ -1,9 +1,5 @@
-﻿  Source.cpp
-e:\an iii\poo\proiect poo\magazin-electronic\magazin_electronic\source.cpp(610): warning C4326: return type of 'main' should be 'int' instead of 'void'
-e:\an iii\poo\proiect poo\magazin-electronic\magazin_electronic\source.cpp(622): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\an iii\poo\proiect poo\magazin-electronic\magazin_electronic\source.cpp(623): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\an iii\poo\proiect poo\magazin-electronic\magazin_electronic\source.cpp(628): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\an iii\poo\proiect poo\magazin-electronic\magazin_electronic\source.cpp(632): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\an iii\poo\proiect poo\magazin-electronic\magazin_electronic\source.cpp(641): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\an iii\poo\proiect poo\magazin-electronic\magazin_electronic\source.cpp(649): warning C4305: 'argument': truncation from 'double' to 'float'
-  Magazin_Electronic.vcxproj -> E:\An III\POO\Proiect POO\Magazin-Electronic\x64\Debug\Magazin_Electronic.exe
+﻿  Electronic.cpp
+  Frigider.cpp
+  Produs.cpp
+  Generating Code...
+  Magazin_Electronic.vcxproj -> D:\Faculta\An_2\S1\Poo\proiect\Code\Magazin-Electronic\x64\Debug\Magazin_Electronic.exe

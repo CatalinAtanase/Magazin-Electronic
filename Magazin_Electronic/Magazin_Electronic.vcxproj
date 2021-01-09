@@ -23,7 +23,7 @@
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{060a283d-ddb0-49cb-a9c0-a30e8726fbaa}</ProjectGuid>
     <RootNamespace>MagazinElectronic</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,7 +139,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Angajat.cpp" />
+    <ClCompile Include="Casnic.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="Electronic.cpp" />
+    <ClCompile Include="Frigider.cpp" />
+    <ClCompile Include="IProdus.cpp" />
+    <ClCompile Include="Produs.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Telefon.cpp" />
+    <ClCompile Include="Tv.cpp" />
+    <ClCompile Include="User.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Angajat.h" />
+    <ClInclude Include="Casnic.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="Electronic.h" />
+    <ClInclude Include="Frigider.h" />
+    <ClInclude Include="IProdus.h" />
+    <ClInclude Include="Produs.h" />
+    <ClInclude Include="Telefon.h" />
+    <ClInclude Include="Tv.h" />
+    <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
