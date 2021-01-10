@@ -6,7 +6,7 @@ using namespace std;
 Produs::Produs() {
 	this->nume = "Produs fara nume";
 	this->cod = 0;
-	this->firma = " ";
+	this->firma = "Firma";
 	this->descriere = "Acest produs nu are descriere.";
 	this->pret = 0;
 	this->garantie = 0;
@@ -98,6 +98,10 @@ string Produs::getNume() {
 
 bool Produs::isInStoc() {
 	return inStoc;
+}
+
+int Produs::getGarantie() {
+	return garantie;
 }
 
 //setteri

@@ -5,7 +5,7 @@
 using namespace std;
 
 class Telefon: public Electronic {
-protected:
+private:
 	float diagonala;
 	int capacitateBaterie;
 	int nrCamere;
@@ -27,6 +27,6 @@ public:
 	void setDiagonala(float diagonala);
 	void setWaterproof(bool waterproof);
 	void setProcesor(string procesor);
-	string toString();
+	virtual string toString();
 };
 

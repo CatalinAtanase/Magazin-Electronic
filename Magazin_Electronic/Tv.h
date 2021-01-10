@@ -1,7 +1,7 @@
 #pragma once
 #include "Casnic.h"
 
-class Tv : Casnic {
+class Tv : public Casnic {
 protected:
 	float diagonala;
 	string tipDisplay;
@@ -17,6 +17,6 @@ public:
 	void operator=(Tv& tv);
 	float getDiagonala();
 	void setDiagonala(float diagonala);
-	string toString();
+	virtual string toString();
 };
 

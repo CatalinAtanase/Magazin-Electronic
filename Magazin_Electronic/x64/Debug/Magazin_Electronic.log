@@ -1,5 +1,12 @@
-﻿  Electronic.cpp
-  Frigider.cpp
-  Produs.cpp
+﻿  Angajat.cpp
+  Controller.cpp
+  Source.cpp
+d:\faculta\an_2\s1\poo\proiect\code\magazin-electronic\magazin_electronic\source.cpp(21): warning C4326: return type of 'main' should be 'int' instead of 'void'
+d:\faculta\an_2\s1\poo\proiect\code\magazin-electronic\magazin_electronic\source.cpp(28): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\faculta\an_2\s1\poo\proiect\code\magazin-electronic\magazin_electronic\source.cpp(29): warning C4305: 'argument': truncation from 'double' to 'float'
+d:\faculta\an_2\s1\poo\proiect\code\magazin-electronic\magazin_electronic\source.cpp(95): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  User.cpp
+d:\faculta\an_2\s1\poo\proiect\code\magazin-electronic\magazin_electronic\user.cpp(62): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  View.cpp
   Generating Code...
   Magazin_Electronic.vcxproj -> D:\Faculta\An_2\S1\Poo\proiect\Code\Magazin-Electronic\x64\Debug\Magazin_Electronic.exe

@@ -59,3 +59,7 @@ void Electronic::setIsSmart(bool isSmart) {
 string Electronic::toString() {
 	return "Casnic";
 }
+
+Culoare Electronic::getCuloare(){
+	return culoare;
+}

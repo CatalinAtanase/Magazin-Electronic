@@ -16,6 +16,6 @@ public:
 	void operator=(Casnic& c);
 	string getClasaEnergetica();
 	void setClasaEnergetica(string clasaEnergetica);
-	string toString();
+	virtual string toString();
 };
 

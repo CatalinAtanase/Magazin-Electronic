@@ -51,9 +51,9 @@ string Tv::toString() {
 		"\nFirma: " + this->getFirma() +
 		"\nDescriere: " + this->getDescriere() +
 		"\nPret: " + to_string(this->getPret()) +
-		"\Greutate: " + to_string(this->getGreutate()) +
-		"\Clasa energetica: " + this->getClasaEnergetica() +
-		"\Diagonala: " + to_string(this->getDiagonala()) +
+		"\nGreutate: " + to_string(this->getGreutate()) +
+		"\nClasa energetica: " + this->getClasaEnergetica() +
+		"\nDiagonala: " + to_string(this->getDiagonala()) +
 		"\nSmart: " + (this->IsSmart() ? "Da" : "Nu") +
 		"\nIn stoc: " + (this->isInStoc() ? "Da" : "Nu") +
 		"\n";

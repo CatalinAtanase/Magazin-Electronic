@@ -8,7 +8,7 @@ protected:
 	string post;
 public:
 	Angajat();
-	Angajat(string nume, string prenume, string email, vector<Produs> cos, float salariu, string dataAngajare,
+	Angajat(string nume, string prenume, string email, vector<Produs *> cos, float salariu, string dataAngajare,
 		string post);
 	~Angajat();
 	Angajat(Angajat& a);
@@ -17,5 +17,6 @@ public:
 	string getDataAngajare();
 	void setSalariu(float salariu);
 	void setDataAngajare(string dataAngajare);
+	void greeting();
 };
 

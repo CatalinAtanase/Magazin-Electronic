@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <string>
 #include "Produs.h"
 
 using namespace std;
@@ -26,6 +27,7 @@ public:
 	bool IsSmart();
 	void setGreutate(float greutate);
 	void setIsSmart(bool isSmart);
-	string toString();
+	virtual string toString();
+	Culoare getCuloare();
 };
 

@@ -1,20 +1,32 @@
 #include "Controller.h"
 #include <iostream>
 #include <string>
+#include "Telefon.h"
 
 using namespace std;
 
-// de facut un vector cu produse
-// cand stergi cv rescriem tot fisierul
-// ez clap
-void Controller::addProducts() {
-	ofstream out;
-	out.open("products.bin", ios::out | ios::binary | ios_base::app);
-	out << "My first product" << endl;
-	out << "some text\nsometetx2\nsometext3" << endl;
-	out.close();
+int Controller::chooseInput(int start, int finish) {
+	int input;
+	bool wrongInput = false;
+	do {
+		if (wrongInput) {
+			cout << "\nWrong input!" << endl;
+		}
+		cout << "\nChoose an option: ";
+		cin >> input;
+		wrongInput = true;
+	} while (input < start || input > finish);
+
+	return input;
 }
-	
+
+string Controller::addStringInfo(string s) {
+	cout << endl << s;
+	string input;
+	cin >> input;
+	return input;
+}
+
 void Controller::getProducts() {
 	ifstream in;
 	string item;
@@ -29,12 +41,6 @@ void Controller::getProducts() {
 	in.close();
 }
 
-void Controller::deleteAllProducts() {
-	ofstream out;
-	out.open("products.bin");
-	out << "";
-	out.close();
-}
 
 void Controller::addProduct(string product) {
 	ofstream out;
@@ -42,3 +48,29 @@ void Controller::addProduct(string product) {
 	out << product << endl;
 	out.close();
 }
+
+
+void Controller::addProductToShop(vector<Produs*>& produseDisponibile, Produs* const& produs) {
+	produseDisponibile.push_back(produs);
+	this->saveProduct(produs);
+}
+
+
+void Controller::saveProduct(Produs* produs) {
+	ofstream out;
+	out.open("products.bin", ios::out | ios::binary | ios_base::app);
+
+	out << produs->toString() << endl;
+	
+	out.close();
+}
+	
+
+void Controller::deleteAllProducts() {
+	ofstream out;
+	out.open("products.bin");
+	out << "";
+	out.close();
+}
+
+

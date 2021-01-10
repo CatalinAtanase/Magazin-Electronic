@@ -12,7 +12,7 @@ Telefon::Telefon() {
 //constructor cu parametri
 Telefon::Telefon(string nume, int cod, string firma, string descriere, float pret, int garantie, bool inStoc, bool isRedus, float greutate,
 	bool isSmart, Culoare culoare, float diagonala, int capacitateBaterie, int nrCamere, bool waterproof,
-	string retea, string procesor) {
+	string retea, string procesor) :Electronic(nume, cod, firma, descriere, pret, garantie, inStoc, isRedus, greutate, isSmart, culoare) {
 	this->diagonala = diagonala;
 	this->capacitateBaterie = capacitateBaterie;
 	this->nrCamere = nrCamere;
@@ -71,15 +71,23 @@ void Telefon::setProcesor(string procesor) {
 	this->procesor = procesor;
 }
 
+
+//string nume, int cod, string firma, string descriere, float pret, int garantie, bool inStoc, bool isRedus, float greutate,
+//bool isSmart, Culoare culoare, float diagonala, int capacitateBaterie, int nrCamere, bool waterproof,
+//string retea, string procesor) :Electronic(nume, cod, firma, descriere, pret, garantie, inStoc, isRedus, greutate, isSmart, culoare)
 string Telefon::toString() {
-	return "Nume: " + this->getNume() +
+	return "Tip Produs: Teleofon\nNume: " + this->getNume() +
+		"\ncod: " + to_string(this->getCod()) +
 		"\nFirma: " + this->getFirma() +
 		"\nDescriere: " + this->getDescriere() +
 		"\nPret: " + to_string(this->getPret()) +
-		"\Greutate: " + to_string(this->getGreutate()) +
-		"\Procesor: " + this->getProcesor() +
-		"\Diagonala: " + to_string(this->getDiagonala()) +
-		"\nSmart: " + (this->IsSmart() ? "Da" : "Nu") +
+		"\Grantie: " + to_string(this->getGarantie()) +
 		"\nIn stoc: " + (this->isInStoc() ? "Da" : "Nu") +
+		"\nPret Redus: " + (this->isInStoc() ? "Da" : "Nu") +
+		"\nGreutate: " + to_string(this->getGreutate()) +
+		"\nSmart: " + (this->IsSmart() ? "Da" : "Nu") +
+		"\nProcesor: " + this->getProcesor() +
+		"\nDiagonala: " + to_string(this->getDiagonala()) +
 		"\n";
 }
+

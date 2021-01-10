@@ -7,7 +7,7 @@ User::User() {
 }
 
 //constructor cu parametri
-User::User(string nume, string prenume, string email, vector<Produs> cos) {
+User::User(string nume, string prenume, string email, vector<Produs *> cos) {
 	if (nume != " ") {
 		this->nume = nume;
 	}
@@ -54,6 +54,14 @@ string User::getEmail() {
 string User::getNume() {
 	return nume;
 }
+string User::getPrenume() {
+	return prenume;
+}
+
+int User::getCartSize() {
+	return cos.size();
+}
+
 //setter
 void User::setEmail(string email) {
 	if (email != " ") {
@@ -65,3 +73,35 @@ void User::setNume(string nume) {
 		this->nume = nume;
 	}
 }
+
+void User::setPrenume(string nume) {
+	if (nume != " ") {
+		this->prenume = nume;
+	}
+}
+
+void User::greeting() {
+	cout << "Bine ai venit " + prenume + " " + nume + "!" << endl;
+}
+
+void User::addToCart(Produs* produs) {
+	this->cos.push_back(produs);
+}
+
+void User::showCart() {
+	vector<Produs*>::iterator it;
+	cout << "\nAfisare produse din cos." << endl;
+	int counter = 1;
+
+	for (it = this->cos.begin(); it != this->cos.end(); it++) {
+		cout << counter << ". " << (*it)->toString() << endl;
+		counter++;
+	}
+}
+
+void User::deleteItemFromCart(vector<Produs*>& produseMagazin, int index) {
+	produseMagazin.push_back(this->cos[index - 1]);
+	this->cos[index - 1] = this->cos.back();
+	this->cos.pop_back();
+}
+

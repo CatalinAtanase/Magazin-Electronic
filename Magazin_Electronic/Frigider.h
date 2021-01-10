@@ -16,6 +16,6 @@ public:
 	void operator=(Frigider& f);
 	int getNrUsi();
 	void setNrUsi(int nrUsi);
-	string toString();
+	virtual string toString();
 };
 

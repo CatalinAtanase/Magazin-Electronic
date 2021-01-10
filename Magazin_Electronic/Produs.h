@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class Produs : IProdus {
+class Produs : public IProdus {
 protected:
 	string nume;
 	int cod;
@@ -29,11 +29,12 @@ public:
 	string getFirma();
 	string getNume();
 	string getDescriere();
+	int getGarantie();
 	bool isInStoc();
 	void setPret(float pret);
 	void setCod(int cod);
 	void setNume(string nume);
 	void setInStoc(bool inStoc);
-	string toString();
+	virtual string toString();
 };
 

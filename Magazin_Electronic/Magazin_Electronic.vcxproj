@@ -145,11 +145,13 @@
     <ClCompile Include="Electronic.cpp" />
     <ClCompile Include="Frigider.cpp" />
     <ClCompile Include="IProdus.cpp" />
+    <ClCompile Include="IUser.cpp" />
     <ClCompile Include="Produs.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Telefon.cpp" />
     <ClCompile Include="Tv.cpp" />
     <ClCompile Include="User.cpp" />
+    <ClCompile Include="View.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Angajat.h" />
@@ -158,10 +160,12 @@
     <ClInclude Include="Electronic.h" />
     <ClInclude Include="Frigider.h" />
     <ClInclude Include="IProdus.h" />
+    <ClInclude Include="IUser.h" />
     <ClInclude Include="Produs.h" />
     <ClInclude Include="Telefon.h" />
     <ClInclude Include="Tv.h" />
     <ClInclude Include="User.h" />
+    <ClInclude Include="View.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -6,7 +6,7 @@ Angajat::Angajat() : User() {
 	post = "Manager";
 }
 //constructor cu parametri
-Angajat::Angajat(string nume, string prenume, string email, vector<Produs> cos, float salariu, string dataAngajare,
+Angajat::Angajat(string nume, string prenume, string email, vector<Produs *> cos, float salariu, string dataAngajare,
 	string post) :User(nume, prenume, email, cos) {
 	if (salariu >= 0) {
 		this->salariu = salariu;
@@ -54,4 +54,8 @@ void Angajat::setDataAngajare(string dataAngajare) {
 	if (dataAngajare != " ") {
 		this->dataAngajare = dataAngajare;
 	}
+}
+
+void Angajat::greeting() {
+	cout << "Angajat indentificat.\nBine ai venit " + prenume + " " + nume + "!" << endl;
 }
