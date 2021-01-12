@@ -17,6 +17,8 @@ void View::menu(int userType) {
 		cout << "\nCe actiune doriti sa realizati?\n";
 		cout << "1. Afiseaza produse\n";
 		cout << "2. Adauga produs in magazin\n";
+		cout << "3. Sterge produs din magazin\n";
+		cout << "4. Editeaza produse din magazin\n";
 		cout << "0. Exit\n";
 	}
 	else {
@@ -42,10 +44,17 @@ void View::showAllProducts(vector<Produs *> produse) {
 	cout << "\nAfisare produse disponibile." << endl;
 	int counter = 1;
 
-	for (it = produse.begin(); it != produse.end(); it++) {
-		cout << counter << ". " << (*it)->toString() << endl;
-		counter++;
+	if (produse.size()) {
+		for (it = produse.begin(); it != produse.end(); it++) {
+			cout << counter << ". " << (*it)->toString() << endl;
+			counter++;
+		}
 	}
+	else {
+		cout << "\nNu sunt produse disponibile momentan\n";
+	}
+
+	
 }
 
 void View::addProductToCart() {

@@ -18,5 +18,6 @@ public:
 	float getDiagonala();
 	void setDiagonala(float diagonala);
 	virtual string toString();
+	virtual void setAttributes();
 };
 

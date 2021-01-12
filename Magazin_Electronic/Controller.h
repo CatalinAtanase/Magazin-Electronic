@@ -17,5 +17,7 @@ public:
 	int chooseInput(int start, int finish);
 	string addStringInfo(string s);
 	void addProductToShop(vector<Produs *> &produseDisponibile, Produs* const &produs);
+	void deleteProductFromShop(vector<Produs*>& produseDisponibile, int index);
+	void editProductFromShop(vector<Produs*>& produseDisponibile, int index);
 };
 

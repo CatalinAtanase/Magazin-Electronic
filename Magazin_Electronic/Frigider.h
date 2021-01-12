@@ -17,5 +17,6 @@ public:
 	int getNrUsi();
 	void setNrUsi(int nrUsi);
 	virtual string toString();
+	virtual void setAttributes();
 };
 

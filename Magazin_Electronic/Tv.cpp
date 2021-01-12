@@ -46,6 +46,38 @@ void Tv::setDiagonala(float diagonala) {
 	this->diagonala = diagonala;
 }
 
+void Tv::setAttributes() {
+	float fInput;
+	string sInput;
+	int iInput;
+
+	cout << "\nIntroduceti nume: ";
+	cin >> sInput;
+	setNume(sInput);
+
+	cout << "\nIntroduceti cod: ";
+	cin >> iInput;
+	setCod(iInput);
+
+	cout << "\nIntroduceti firma: ";
+	cin >> sInput;
+	setFirma(sInput);
+
+	cout << "\nIntroduceti descriere: ";
+	cin >> sInput;
+	setFirma(sInput);
+
+	//cout << "\nIntroduceti pret: ";
+	//cin >> fInput;
+	//setPret(fInput);
+
+	//cout << "\nIntroduceti greutate: ";
+	//cin >> fInput;
+	//setPret(fInput);
+}
+
+
+
 string Tv::toString() {
 	return "Nume: " + this->getNume() +
 		"\nFirma: " + this->getFirma() +

@@ -1,15 +1,185 @@
+Tip Produs: Teleofon
 Nume: Telefon
+cod: 1000
+Firma: Apple
+Descriere: Descriere
+Pret: 3000.000000Grantie: 1
+In stoc: Da
+Pret Redus: Da
+Greutate: 2.000000
+Smart: Da
+Procesor: Procesor
+Diagonala: 12.200000
+
+Tip Produs: Teleofon
+Nume: Telefon
+cod: 1000
+Firma: Apple
+Descriere: Descriere
+Pret: 3000.000000Grantie: 1
+In stoc: Da
+Pret Redus: Da
+Greutate: 2.000000
+Smart: Da
+Procesor: Procesor
+Diagonala: 12.200000
+
+Tip Produs: Teleofon
+Nume: Telefon
+cod: 1000
 Firma: Apple
 Descriere: Descriere
 Pret: 3000.000000
+Grantie: 1
+In stoc: Da
+Pret Redus: Da
 Greutate: 2.000000
+Smart: Da
 Procesor: Procesor
 Diagonala: 12.200000
-Smart: Da
-In stoc: Da
 
-Nume: Samsung OLED
-Firma: Samsung
+Tip Produs: Teleofon
+Nume: N
+cod: 1
+Firma: D
+Descriere: Acest produs nu are descriere.
+Pret: 0.000000
+Grantie: 0
+In stoc: Nu
+Pret Redus: Nu
+Greutate: 0.000000
+Smart: Nu
+Procesor: hexa-core
+Diagonala: 0.000000
+
+Tip Produs: Teleofon
+Nume: N
+cod: 1
+Firma: D
+Descriere: Acest produs nu are descriere.
+Pret: 2.000000
+Grantie: 0
+In stoc: Nu
+Pret Redus: Nu
+Greutate: 0.000000
+Smart: Nu
+Procesor: Pro
+Diagonala: 0.000000
+
+Tip Produs: Teleofon
+Nume: n
+cod: 1
+Firma: n
+Descriere: Acest produs nu are descriere.
+Pret: 1.000000
+Grantie: 0
+In stoc: Nu
+Pret Redus: Nu
+Greutate: 0.000000
+Smart: Nu
+Procesor: n
+Diagonala: 0.000000
+
+Tip Produs: Teleofon
+Nume: s
+cod: 1
+Firma: s
+Descriere: Acest produs nu are descriere.
+Pret: 0.000000
+Grantie: 0
+In stoc: Nu
+Pret Redus: Nu
+Greutate: 0.000000
+Smart: Nu
+Procesor: s
+Diagonala: 0.000000
+
+Tip Produs: Teleofon
+Nume: Telefon
+cod: 1000
+Firma: Apple
+Descriere: Descriere
+Pret: 3000.000000
+Grantie: 1
+In stoc: Da
+Pret Redus: Da
+Greutate: 2.000000
+Smart: Da
+Procesor: Procesor
+Diagonala: 12.200000
+
+Tip Produs: Teleofon
+Nume: Telefon
+cod: 1000
+Firma: Apple
+Descriere: Descriere
+Pret: 3000.000000
+Grantie: 1
+In stoc: Da
+Pret Redus: Da
+Greutate: 2.000000
+Smart: Da
+Procesor: Procesor
+Diagonala: 12.200000
+
+Tip Produs: Teleofon
+Nume: Telefon
+cod: 1000
+Firma: Apple
+Descriere: Descriere
+Pret: 3000.000000
+Grantie: 1
+In stoc: Da
+Pret Redus: Da
+Greutate: 2.000000
+Smart: Da
+Procesor: Procesor
+Diagonala: 12.200000
+
+Tip Produs: Teleofon
+Nume: Telefon
+cod: 1000
+Firma: Apple
+Descriere: Descriere
+Pret: 3000.000000
+Grantie: 1
+In stoc: Da
+Pret Redus: Da
+Greutate: 2.000000
+Smart: Da
+Procesor: Procesor
+Diagonala: 12.200000
+
+Tip Produs: Teleofon
+Nume: Telefon
+cod: 1000
+Firma: Apple
+Descriere: Descriere
+Pret: 3000.000000
+Grantie: 1
+In stoc: Da
+Pret Redus: Da
+Greutate: 2.000000
+Smart: Da
+Procesor: Procesor
+Diagonala: 12.200000
+
+Tip Produs: Teleofon
+Nume: n
+cod: 1
+Firma: d
+Descriere: Descriere
+Pret: 1.000000
+Grantie: 1
+In stoc: Da
+Pret Redus: Da
+Greutate: 2.000000
+Smart: Da
+Procesor: d
+Diagonala: 12.200000
+
+Nume: d
+Firma: d
 Descriere: Super mega tv, negrul e negru
 Pret: 64500.000000
 Greutate: 12.570000
@@ -19,30 +189,35 @@ Smart: Da
 In stoc: Da
 
 Tip Produs: Teleofon
-Nume: Telefon
-cod: 1000
-Firma: Apple
+Nume: d
+cod: 1
+Firma: d
 Descriere: Descriere
-Pret: 3000.000000Grantie: 1
+Pret: 1.000000
+Grantie: 1
 In stoc: Da
 Pret Redus: Da
 Greutate: 2.000000
 Smart: Da
-Procesor: Procesor
+Procesor: d
 Diagonala: 12.200000
 
-Nume: Samsung OLED
-Firma: Samsung
-Descriere: Super mega tv, negrul e negru
-Pret: 64500.000000
-Greutate: 12.570000
-Clasa energetica: A++
-Diagonala: 41.000000
-Smart: Da
+Tip Produs: Teleofon
+Nume: d
+cod: 1
+Firma: d
+Descriere: Descriere
+Pret: 1.000000
+Grantie: 1
 In stoc: Da
+Pret Redus: Da
+Greutate: 2.000000
+Smart: Da
+Procesor: d
+Diagonala: 12.200000
 
-Nume: LG Door-in-Door
-Firma: LG
+Nume: d
+Firma: d
 Descriere: Scump
 Pret: 100000.000000
 Greutate: 89.000000
@@ -52,81 +227,30 @@ Smart: Da
 In stoc: Nu
 
 Tip Produs: Teleofon
-Nume: Telefon
+Nume: c c 
 cod: 1000
-Firma: Apple
+Firma: c c 
 Descriere: Descriere
-Pret: 3000.000000Grantie: 1
+Pret: 3000.000000
+Grantie: 1
 In stoc: Da
 Pret Redus: Da
 Greutate: 2.000000
 Smart: Da
-Procesor: Procesor
+Procesor: c c 
 Diagonala: 12.200000
-
-Nume: Samsung OLED
-Firma: Samsung
-Descriere: Super mega tv, negrul e negru
-Pret: 64500.000000
-Greutate: 12.570000
-Clasa energetica: A++
-Diagonala: 41.000000
-Smart: Da
-In stoc: Da
 
 Tip Produs: Teleofon
-Nume: Telefon
-cod: 1000
-Firma: Apple
+Nume: d
+cod: 1
+Firma: d
 Descriere: Descriere
-Pret: 3000.000000Grantie: 1
+Pret: 1.000000
+Grantie: 1
 In stoc: Da
 Pret Redus: Da
 Greutate: 2.000000
 Smart: Da
-Procesor: Procesor
+Procesor: d
 Diagonala: 12.200000
-
-Nume: LG Door-in-Door
-Firma: LG
-Descriere: Scump
-Pret: 100000.000000
-Greutate: 89.000000
-Clasa energetica: A+++
-Numar usi: 4
-Smart: Da
-In stoc: Nu
-
-Tip Produs: Teleofon
-Nume: Telefon
-cod: 1000
-Firma: Apple
-Descriere: Descriere
-Pret: 3000.000000Grantie: 1
-In stoc: Da
-Pret Redus: Da
-Greutate: 2.000000
-Smart: Da
-Procesor: Procesor
-Diagonala: 12.200000
-
-Nume: Samsung OLED
-Firma: Samsung
-Descriere: Super mega tv, negrul e negru
-Pret: 64500.000000
-Greutate: 12.570000
-Clasa energetica: A++
-Diagonala: 41.000000
-Smart: Da
-In stoc: Da
-
-Nume: LG Door-in-Door
-Firma: LG
-Descriere: Scump
-Pret: 100000.000000
-Greutate: 89.000000
-Clasa energetica: A+++
-Numar usi: 4
-Smart: Da
-In stoc: Nu
 

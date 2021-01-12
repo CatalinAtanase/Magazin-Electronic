@@ -35,6 +35,8 @@ public:
 	void setCod(int cod);
 	void setNume(string nume);
 	void setInStoc(bool inStoc);
+	void setFirma(string firma);
 	virtual string toString();
+	virtual void setAttributes();
 };
 

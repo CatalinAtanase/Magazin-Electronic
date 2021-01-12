@@ -52,6 +52,36 @@ void Frigider::setNrUsi(int nrUsi) {
 	this->nrUsi = nrUsi;
 }
 
+void Frigider::setAttributes() {
+	float fInput;
+	string sInput;
+	int iInput;
+
+	cout << "\nIntroduceti nume: ";
+	cin >> sInput;
+	setNume(sInput);
+
+	cout << "\nIntroduceti cod: ";
+	cin >> iInput;
+	setCod(iInput);
+
+	cout << "\nIntroduceti firma: ";
+	cin >> sInput;
+	setFirma(sInput);
+
+	cout << "\nIntroduceti descriere: ";
+	cin >> sInput;
+	setFirma(sInput);
+
+	//cout << "\nIntroduceti pret: ";
+	//cin >> fInput;
+	//setPret(fInput);
+
+	//cout << "\nIntroduceti greutate: ";
+	//cin >> fInput;
+	//setPret(fInput);
+}
+
 string Frigider::toString() {
 	return "Nume: " + this->getNume() +
 		"\nFirma: " + this->getFirma() +

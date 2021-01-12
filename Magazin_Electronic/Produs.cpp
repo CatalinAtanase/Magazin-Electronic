@@ -127,6 +127,10 @@ void Produs::setInStoc(bool inStoc) {
 	this->inStoc = inStoc;
 }
 
+void Produs::setFirma(string firma) {
+	this->firma = firma;
+}
+
 string Produs::toString() {
 	return "Produs\n";
 }
@@ -137,6 +141,10 @@ string Produs::getFirma() {
 
 string Produs::getDescriere() {
 	return this->descriere;
+}
+
+void Produs::setAttributes() {
+
 }
 
 //destructor

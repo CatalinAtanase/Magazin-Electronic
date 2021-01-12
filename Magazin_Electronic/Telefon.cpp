@@ -7,6 +7,7 @@ Telefon::Telefon() {
 	waterproof = false;
 	retea = "4G";
 	procesor = "hexa-core";
+	this->setAttributes();
 };
 
 //constructor cu parametri
@@ -71,6 +72,52 @@ void Telefon::setProcesor(string procesor) {
 	this->procesor = procesor;
 }
 
+void Telefon::setAttributes() {
+	float fInput;
+	string sInput;
+	int iInput;
+
+	cout << "\nIntroduceti nume: ";
+	cin >> sInput;
+	setNume(sInput);
+
+	cout << "\nIntroduceti cod: ";
+	cin >> iInput;
+	setCod(iInput);
+
+	cout << "\nIntroduceti firma: ";
+	cin >> sInput;
+	setFirma(sInput);
+
+	cout << "\nIntroduceti descriere: ";
+	cin >> sInput;
+	setFirma(sInput);
+
+	cout << "\nIntroduceti pret: ";
+	cin >> fInput;
+	setPret(fInput);
+
+	cout << "\nIntroduceti greutate: ";
+	cin >> fInput;
+	setPret(fInput);
+
+	cout << "\nIntroduceti diagonala: ";
+	cin >> fInput;
+	setPret(fInput);
+
+	/*cout << "\nIntroduceti capacitate baterie: ";
+	cin >> iInput;
+	setBaterie(iInput)*/;
+
+	//cout << "\nIntroduceti numar camere: ";
+	//cin >> iInput;
+	//setNr(iInput);
+
+	cout << "\nIntroduceti procesor: ";
+	cin >> sInput;
+	setProcesor(sInput);
+}
+
 
 //string nume, int cod, string firma, string descriere, float pret, int garantie, bool inStoc, bool isRedus, float greutate,
 //bool isSmart, Culoare culoare, float diagonala, int capacitateBaterie, int nrCamere, bool waterproof,
@@ -81,7 +128,7 @@ string Telefon::toString() {
 		"\nFirma: " + this->getFirma() +
 		"\nDescriere: " + this->getDescriere() +
 		"\nPret: " + to_string(this->getPret()) +
-		"\Grantie: " + to_string(this->getGarantie()) +
+		"\nGrantie: " + to_string(this->getGarantie()) +
 		"\nIn stoc: " + (this->isInStoc() ? "Da" : "Nu") +
 		"\nPret Redus: " + (this->isInStoc() ? "Da" : "Nu") +
 		"\nGreutate: " + to_string(this->getGreutate()) +

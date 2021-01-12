@@ -51,6 +51,7 @@ void Controller::addProduct(string product) {
 
 
 void Controller::addProductToShop(vector<Produs*>& produseDisponibile, Produs* const& produs) {
+	produs->setAttributes();
 	produseDisponibile.push_back(produs);
 	this->saveProduct(produs);
 }
@@ -63,6 +64,15 @@ void Controller::saveProduct(Produs* produs) {
 	out << produs->toString() << endl;
 	
 	out.close();
+}
+
+void Controller::deleteProductFromShop(vector<Produs*>& produseDisponibile, int index) {
+	produseDisponibile[index - 1] = produseDisponibile.back();
+	produseDisponibile.pop_back();
+}
+
+void Controller::editProductFromShop(vector<Produs*>& produseDisponibile, int index) {
+	produseDisponibile[index - 1]->setAttributes();
 }
 	
 

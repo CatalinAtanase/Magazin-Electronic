@@ -28,5 +28,6 @@ public:
 	void setWaterproof(bool waterproof);
 	void setProcesor(string procesor);
 	virtual string toString();
+	virtual void setAttributes();
 };
 
