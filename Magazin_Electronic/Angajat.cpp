@@ -12,8 +12,17 @@ Angajat::Angajat(string nume, string prenume, string email, vector<Produs *> cos
 		this->salariu = salariu;
 	}
 	else this->salariu = 0;
-	this->dataAngajare = dataAngajare;
-	this->post = post;
+
+	if (dataAngajare != " ") {
+		this->dataAngajare = dataAngajare;
+	}
+	else this->dataAngajare = "1 Ianuarie 2010";
+
+	if (post != " ") {
+		this->post = post;
+	}
+	else this->post = "Manager";
+	
 }
 
 //destructor
@@ -43,6 +52,9 @@ float Angajat::getSalariu() {
 string Angajat::getDataAngajare() {
 	return dataAngajare;
 }
+string Angajat::getPost() {
+	return post;
+}
 
 //setter
 void Angajat::setSalariu(float salariu) {
@@ -53,6 +65,11 @@ void Angajat::setSalariu(float salariu) {
 void Angajat::setDataAngajare(string dataAngajare) {
 	if (dataAngajare != " ") {
 		this->dataAngajare = dataAngajare;
+	}
+}
+void Angajat::setPost(string post) {
+	if (post != " ") {
+		this->post = post;
 	}
 }
 

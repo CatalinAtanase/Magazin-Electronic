@@ -14,12 +14,27 @@ Telefon::Telefon() {
 Telefon::Telefon(string nume, int cod, string firma, string descriere, float pret, int garantie, bool inStoc, bool isRedus, float greutate,
 	bool isSmart, Culoare culoare, float diagonala, int capacitateBaterie, int nrCamere, bool waterproof,
 	string retea, string procesor) :Electronic(nume, cod, firma, descriere, pret, garantie, inStoc, isRedus, greutate, isSmart, culoare) {
-	this->diagonala = diagonala;
-	this->capacitateBaterie = capacitateBaterie;
-	this->nrCamere = nrCamere;
+	if (diagonala != 0) {
+		this->diagonala = diagonala;
+	}
+	else diagonala = 0;
+	if (capacitateBaterie != 0) {
+		this->capacitateBaterie=capacitateBaterie;
+	}
+	else capacitateBaterie = 0;
+	if (nrCamere >= 0 && nrCamere <= 4) {
+		this->nrCamere = nrCamere;
+	}
+	else nrCamere = 0;
 	this->waterproof = waterproof;
-	this->retea = retea;
-	this->procesor = procesor;
+	if (retea != " ") {
+		this->retea = retea;
+	}
+	else retea = "4G";
+	if (procesor != " ") {
+		this->procesor = procesor;
+	}
+	else procesor = "Hexa Core";	
 }
 
 //destructor
@@ -55,13 +70,24 @@ float Telefon::getDiagonala() {
 bool Telefon::isWaterproof() {
 	return waterproof;
 }
-
+int Telefon::getCapacitateBaterie() {
+	return capacitateBaterie;
+}
+int Telefon::getNrCamere() {
+	return nrCamere;
+}
+string Telefon::getRetea() {
+	return retea;
+}
 string Telefon::getProcesor() {
 	return procesor;
 }
+
 //setter
 void Telefon::setDiagonala(float diagonala) {
-	this->diagonala = diagonala;
+	if (diagonala != 0) {
+		this->diagonala = diagonala;
+	}
 }
 
 void Telefon::setWaterproof(bool waterproof) {
@@ -69,8 +95,27 @@ void Telefon::setWaterproof(bool waterproof) {
 }
 
 void Telefon::setProcesor(string procesor) {
-	this->procesor = procesor;
+	if (procesor != " ") {
+		this->procesor = procesor;
+	}
 }
+
+void Telefon::setRetea(string retea) {
+	if (retea != " ") {
+		this->retea = retea;
+	}
+}
+void Telefon::setNrCamere(int nrCamere) {
+	if (nrCamere >= 0 && nrCamere <= 4) {
+		this->nrCamere = nrCamere;
+	}
+}
+void Telefon::setCapacitateBaterie(int capacitateBaterie) {
+	if (capacitateBaterie != 0) {
+		this->capacitateBaterie = capacitateBaterie;
+	}
+}
+
 
 void Telefon::setAttributes() {
 	float fInput;

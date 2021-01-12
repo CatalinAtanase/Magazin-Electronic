@@ -12,7 +12,9 @@ Casnic::Casnic(string nume, int cod, string firma, string descriere, float pret,
 	}
 	else
 		this->putere = 0;
-	this->clasaEnergetica = clasaEnergetica;
+	if (clasaEnergetica != " ") {
+		this->clasaEnergetica = clasaEnergetica;
+	}
 }
 
 //destructor
@@ -37,9 +39,22 @@ void Casnic::operator=(Casnic& c) {
 string Casnic::getClasaEnergetica() {
 	return clasaEnergetica;
 }
+
+float Casnic::getPutere() {
+	return putere;
+}
+
 //setter
 void Casnic::setClasaEnergetica(string clasaEnergetica) {
-	this->clasaEnergetica = clasaEnergetica;
+	if (clasaEnergetica != " ") {
+		this->clasaEnergetica = clasaEnergetica;
+	}
+}
+
+void Casnic::setPutere(float putere) {
+	if (putere >= 0) {
+		this->putere = putere;
+	}
 }
 
 string Casnic::toString() {

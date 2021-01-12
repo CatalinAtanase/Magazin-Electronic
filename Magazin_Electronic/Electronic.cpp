@@ -45,6 +45,11 @@ bool Electronic::IsSmart() {
 	return isSmart;
 }
 
+Culoare Electronic::getCuloare() {
+	return culoare;
+}
+
+
 //setteri
 void Electronic::setGreutate(float greutate) {
 	if (greutate >= 0) {
@@ -56,10 +61,11 @@ void Electronic::setIsSmart(bool isSmart) {
 	this->isSmart = isSmart;
 }
 
+void Electronic::setCuloare(Culoare culoare){
+		this->culoare = culoare;
+}
+
 string Electronic::toString() {
 	return "Casnic";
 }
 
-Culoare Electronic::getCuloare(){
-	return culoare;
-}

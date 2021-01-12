@@ -25,8 +25,11 @@ public:
 	void operator=(Electronic e);
 	float getGreutate();
 	bool IsSmart();
+
 	void setGreutate(float greutate);
 	void setIsSmart(bool isSmart);
+	void setCuloare(Culoare culoare);
+
 	virtual string toString();
 	Culoare getCuloare();
 };

@@ -13,10 +13,15 @@ public:
 	~Angajat();
 	Angajat(Angajat& a);
 	void operator=(Angajat a);
+
 	float getSalariu();
 	string getDataAngajare();
+	string getPost();
+
 	void setSalariu(float salariu);
 	void setDataAngajare(string dataAngajare);
+	void setPost(string post);
+
 	void greeting();
 };
 

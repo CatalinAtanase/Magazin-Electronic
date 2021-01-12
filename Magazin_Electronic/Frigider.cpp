@@ -47,9 +47,25 @@ void Frigider::operator=(Frigider& f) {
 int Frigider::getNrUsi() {
 	return nrUsi;
 }
+int Frigider::getCapacitate() {
+	return capacitate;
+}
+bool Frigider::getCongelator() {
+	return congelator;
+}
 //setter
 void Frigider::setNrUsi(int nrUsi) {
-	this->nrUsi = nrUsi;
+	if (nrUsi >= 0) {
+		this->nrUsi = nrUsi;
+	}
+}
+void Frigider::setCapacitate(int capacitate) {
+	if (capacitate >= 0) {
+		this->capacitate = capacitate;
+	}
+}
+void Frigider::setCongelator(bool congelator) {
+	this->congelator = congelator;
 }
 
 void Frigider::setAttributes() {

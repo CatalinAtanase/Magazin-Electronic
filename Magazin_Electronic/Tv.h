@@ -15,8 +15,15 @@ public:
 	Tv(Tv& tv);
 
 	void operator=(Tv& tv);
+
 	float getDiagonala();
+	string getTipDisplay();
+	string getRezolutie();
+
 	void setDiagonala(float diagonala);
+	void setTipDisplay(string tipDisplay);
+	void setRezolutie(string rezolutie);
+
 	virtual string toString();
 	virtual void setAttributes();
 };

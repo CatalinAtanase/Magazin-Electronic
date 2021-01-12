@@ -21,12 +21,22 @@ public:
 	~Telefon();
 	Telefon(Telefon& t);
 	void operator=(Telefon& t);
+
 	float getDiagonala();
 	bool isWaterproof();
 	string getProcesor();
+	int getCapacitateBaterie();
+	int getNrCamere();
+	string getRetea();
+
 	void setDiagonala(float diagonala);
 	void setWaterproof(bool waterproof);
 	void setProcesor(string procesor);
+	void setCapacitateBaterie(int capacitateBaterie);
+	void setNrCamere(int nrCamere);
+	void setRetea(string retea);
+
+
 	virtual string toString();
 	virtual void setAttributes();
 };

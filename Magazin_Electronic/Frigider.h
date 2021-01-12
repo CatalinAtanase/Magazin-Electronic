@@ -14,8 +14,15 @@ public:
 	~Frigider();
 	Frigider(Frigider& f);
 	void operator=(Frigider& f);
+
 	int getNrUsi();
+	int getCapacitate();
+	bool getCongelator();
+
 	void setNrUsi(int nrUsi);
+	void setCapacitate(int capacitate);
+	void setCongelator(bool congelator);
+
 	virtual string toString();
 	virtual void setAttributes();
 };

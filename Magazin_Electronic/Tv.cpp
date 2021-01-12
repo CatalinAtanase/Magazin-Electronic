@@ -13,8 +13,14 @@ Tv::Tv(string nume, int cod, string firma, string descriere, float pret, int gar
 		this->diagonala = diagonala;
 	}
 	else this->diagonala = 0;
-	this->tipDisplay = tipDisplay;
-	this->rezolutie = rezolutie;
+	if (tipDisplay != " ") {
+		this->tipDisplay = tipDisplay;
+	}
+	else tipDisplay = "LCD";
+	if (rezolutie != " ") {
+		this->rezolutie = rezolutie;
+	}
+	else rezolutie = "HD";
 }
 
 //destructor
@@ -41,9 +47,28 @@ void Tv::operator=(Tv& tv) {
 float Tv::getDiagonala() {
 	return diagonala;
 }
+string Tv::getTipDisplay() {
+	return tipDisplay;
+}
+string Tv::getRezolutie() {
+	return rezolutie;
+}
+
 //setter
 void Tv::setDiagonala(float diagonala) {
-	this->diagonala = diagonala;
+	if (diagonala >= 0) {
+		this->diagonala = diagonala;
+	}
+}
+void Tv::setTipDisplay(string tipDisplay) {
+	if (tipDisplay != " ") {
+		this->tipDisplay = tipDisplay;
+	}
+}
+void Tv::setRezolutie(string rezolutie) {
+	if (rezolutie != " ") {
+		this->rezolutie = rezolutie;
+	}
 }
 
 void Tv::setAttributes() {

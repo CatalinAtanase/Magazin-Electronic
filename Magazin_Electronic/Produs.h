@@ -31,11 +31,16 @@ public:
 	string getDescriere();
 	int getGarantie();
 	bool isInStoc();
+	bool isIsRedus();
+
 	void setPret(float pret);
 	void setCod(int cod);
+	void setDescriere(string descriere);
 	void setNume(string nume);
 	void setInStoc(bool inStoc);
 	void setFirma(string firma);
+	void setIsRedus(bool isRedus);
+	void setGarantie(int garantie);
 	virtual string toString();
 	virtual void setAttributes();
 };

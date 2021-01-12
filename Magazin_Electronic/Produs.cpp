@@ -103,6 +103,16 @@ bool Produs::isInStoc() {
 int Produs::getGarantie() {
 	return garantie;
 }
+bool Produs::isIsRedus() {
+	return isRedus;
+}
+string Produs::getFirma() {
+	return this->firma;
+}
+
+string Produs::getDescriere() {
+	return this->descriere;
+}
 
 //setteri
 void Produs::setPret(float pret) {
@@ -131,17 +141,28 @@ void Produs::setFirma(string firma) {
 	this->firma = firma;
 }
 
+void Produs::setDescriere(string descriere) {
+	if (descriere != " ") {
+		this->descriere = descriere;
+	}
+}
+
+void Produs::setIsRedus(bool isRedus) {
+	this->isRedus = isRedus;
+}
+
+void Produs::setGarantie(int garantie) {
+	if (garantie != 0) {
+		this->garantie = garantie;
+	}
+}
+
+
 string Produs::toString() {
 	return "Produs\n";
 }
 
-string Produs::getFirma() {
-	return this->firma;
-}
 
-string Produs::getDescriere() {
-	return this->descriere;
-}
 
 void Produs::setAttributes() {
 
