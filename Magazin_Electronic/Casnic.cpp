@@ -60,3 +60,7 @@ void Casnic::setPutere(float putere) {
 string Casnic::toString() {
 	return "Casnic";
 }
+
+//operator >,<
+bool Casnic::operator<(const Casnic c) { return this->pret < c.pret; };
+bool Casnic::operator>(const Casnic c) { return this->pret > c.pret; };

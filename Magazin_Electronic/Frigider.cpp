@@ -68,6 +68,13 @@ void Frigider::setCongelator(bool congelator) {
 	this->congelator = congelator;
 }
 
+//operator -=
+Produs Frigider::operator-=(int x) {
+	capacitate-= x;
+	return *this;
+}
+
+
 void Frigider::setAttributes() {
 	float fInput;
 	string sInput;

@@ -71,6 +71,12 @@ void Tv::setRezolutie(string rezolutie) {
 	}
 }
 
+//operator -=
+Produs Tv::operator-=(int x) {
+	diagonala -= x;
+	return *this;
+}
+
 void Tv::setAttributes() {
 	float fInput;
 	string sInput;

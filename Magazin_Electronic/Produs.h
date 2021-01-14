@@ -42,6 +42,9 @@ public:
 	void setIsRedus(bool isRedus);
 	void setGarantie(int garantie);
 	virtual string toString();
+	virtual Produs operator-=(int x);
 	virtual void setAttributes();
+	//operator +=
+	Produs operator+=(int x);
 };
 

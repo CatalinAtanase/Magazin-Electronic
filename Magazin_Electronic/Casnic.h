@@ -19,5 +19,8 @@ public:
 	void setPutere(float putere);
 	void setClasaEnergetica(string clasaEnergetica);
 	virtual string toString();
+	//operator >,<
+	bool operator<(const Casnic c);
+	bool operator>(const Casnic c);
 };
 

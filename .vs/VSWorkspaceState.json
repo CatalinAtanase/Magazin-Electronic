@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Magazin_Electronic"
+    "\\Magazin_Electronic",
+    "\\Magazin_Electronic\\x64"
   ],
-  "SelectedNode": "\\Magazin_Electronic.sln",
+  "SelectedNode": "\\Magazin_Electronic\\Produs.h",
   "PreviewInSolutionExplorer": false
 }

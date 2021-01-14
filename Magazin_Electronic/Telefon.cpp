@@ -116,6 +116,12 @@ void Telefon::setCapacitateBaterie(int capacitateBaterie) {
 	}
 }
 
+//operator -=
+Produs Telefon::operator-=(int x) {
+	capacitateBaterie -= x;
+	return *this;
+}
+
 
 void Telefon::setAttributes() {
 	float fInput;

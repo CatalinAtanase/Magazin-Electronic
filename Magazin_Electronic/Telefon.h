@@ -39,5 +39,7 @@ public:
 
 	virtual string toString();
 	virtual void setAttributes();
+	//operator -=
+	virtual Produs operator-=(int x);
 };
 

@@ -156,6 +156,11 @@ void Produs::setGarantie(int garantie) {
 		this->garantie = garantie;
 	}
 }
+//operator +=
+Produs Produs::operator+=(int x) {
+	pret += x;
+	return *this;
+}
 
 
 string Produs::toString() {
@@ -166,6 +171,10 @@ string Produs::toString() {
 
 void Produs::setAttributes() {
 
+}
+
+Produs Produs::operator-=(int x) {
+	return *this;
 }
 
 //destructor

@@ -1,10 +1,2 @@
-﻿  Angajat.cpp
-  Source.cpp
-e:\an iii\poo\proiectpoo2\magazin-electronic\magazin_electronic\source.cpp(21): warning C4326: return type of 'main' should be 'int' instead of 'void'
-e:\an iii\poo\proiectpoo2\magazin-electronic\magazin_electronic\source.cpp(28): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\an iii\poo\proiectpoo2\magazin-electronic\magazin_electronic\source.cpp(29): warning C4305: 'argument': truncation from 'double' to 'float'
-e:\an iii\poo\proiectpoo2\magazin-electronic\magazin_electronic\source.cpp(79): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-e:\an iii\poo\proiectpoo2\magazin-electronic\magazin_electronic\source.cpp(85): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-e:\an iii\poo\proiectpoo2\magazin-electronic\magazin_electronic\source.cpp(107): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  Generating Code...
+﻿  Produs.cpp
   Magazin_Electronic.vcxproj -> E:\An III\POO\PROIECTPOO2\Magazin-Electronic\x64\Debug\Magazin_Electronic.exe
