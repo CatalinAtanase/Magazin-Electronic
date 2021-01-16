@@ -7,7 +7,7 @@ Telefon::Telefon() {
 	waterproof = false;
 	retea = "4G";
 	procesor = "hexa-core";
-	this->setAttributes();
+	//this->setAttributes();
 };
 
 //constructor cu parametri

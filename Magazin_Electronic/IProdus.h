@@ -4,6 +4,6 @@ using namespace std;
 
 class IProdus {
 public:
-	virtual string toString();
+	virtual string toString() = 0;
 };
 

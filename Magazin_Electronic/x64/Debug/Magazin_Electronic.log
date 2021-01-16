@@ -1,2 +1,3 @@
-﻿  Produs.cpp
-  Magazin_Electronic.vcxproj -> E:\An III\POO\PROIECTPOO2\Magazin-Electronic\x64\Debug\Magazin_Electronic.exe
+﻿  User.cpp
+d:\faculta\an_2\s1\poo\proiect\code\magazin-electronic\magazin_electronic\user.cpp(63): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  Magazin_Electronic.vcxproj -> D:\Faculta\An_2\S1\Poo\proiect\Code\Magazin-Electronic\x64\Debug\Magazin_Electronic.exe

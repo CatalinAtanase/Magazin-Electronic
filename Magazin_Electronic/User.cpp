@@ -1,4 +1,5 @@
 #include "User.h"
+#include <sstream>
 
 User::User() {
 	this->nume = "User";
@@ -103,5 +104,27 @@ void User::deleteItemFromCart(vector<Produs*>& produseMagazin, int index) {
 	produseMagazin.push_back(this->cos[index - 1]);
 	this->cos[index - 1] = this->cos.back();
 	this->cos.pop_back();
+}
+
+string User::prepareOrder() {
+	string order;
+	vector<Produs*>::iterator it;
+	int counter = 1;
+
+	string adresa;
+	cout << "Adresa: ";
+	cin >> adresa;
+
+	order = "Comanda pentru: " + this->getNume() + " " + this->getPrenume() + "\nProduse comanda: \n";
+
+	for (it = this->cos.begin(); it != this->cos.end(); it++) {
+		order += (*it)->toString();
+		order += "\n";
+	}
+
+	order += "Adresa: ";
+	order += adresa;
+
+	return order;
 }
 

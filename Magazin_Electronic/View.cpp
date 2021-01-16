@@ -19,6 +19,8 @@ void View::menu(int userType) {
 		cout << "2. Adauga produs in magazin\n";
 		cout << "3. Sterge produs din magazin\n";
 		cout << "4. Editeaza produse din magazin\n";
+		cout << "5. Afiseaza comenzi\n";
+		cout << "6. Raport comenzi\n";
 		cout << "0. Exit\n";
 	}
 	else {
@@ -27,6 +29,7 @@ void View::menu(int userType) {
 		cout << "2. Adauga produs in cos\n";
 		cout << "3. Afiseaza produse din cos\n";
 		cout << "4. Sterge produs din cos\n";
+		cout << "5. Trimite comanda\n";
 		cout << "0. Exit\n";
 	}
 	cout << "";

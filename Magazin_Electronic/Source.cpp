@@ -36,6 +36,11 @@ void main() {
 	produseDisponibile.push_back(&frigider);
 	produseDisponibile.push_back(&tv);
 
+	controller.addProduct(&telefon);
+	controller.addProduct(&frigider);
+	controller.addProduct(&tv);
+
+
 	view.login();
 	input = controller.chooseInput(1, 2);
 
@@ -51,7 +56,7 @@ void main() {
 		
 		while (input != 0) {
 			view.menu(1);
-			input = controller.chooseInput(0, 4);
+			input = controller.chooseInput(0, 6);
 			if (input == 1) {
 				view.showAllProducts(produseDisponibile);
 			}
@@ -76,14 +81,22 @@ void main() {
 			else if (input == 3) {
 				view.showAllProducts(produseDisponibile);
 				cout << "\nCe produs doriti sa stergeti?\n";
-				input = controller.chooseInput(1, produseDisponibile.size());
-				controller.deleteProductFromShop(produseDisponibile, input);
+				if (produseDisponibile.size()) {
+					input = controller.chooseInput(1, produseDisponibile.size());
+					controller.deleteProductFromShop(produseDisponibile, input);
+				}
 			}
 			else if (input == 4) {
 				view.showAllProducts(produseDisponibile);
 				cout << "\nCe produs doriti sa editati?\n";
 				input = controller.chooseInput(1, produseDisponibile.size());
 				controller.editProductFromShop(produseDisponibile, input);
+			}
+			else if (input == 5) {
+				controller.viewOrders(false);
+			}
+			else if (input == 6) {
+				controller.viewOrders(true);
 			}
 		}
 	}
@@ -97,7 +110,7 @@ void main() {
 
 		while (input != 0) {
 			view.menu(2);
-			input = controller.chooseInput(0, 4);
+			input = controller.chooseInput(0, 5);
 			if (input == 1) {
 				view.showAllProducts(produseDisponibile);
 			}
@@ -122,6 +135,14 @@ void main() {
 				cout << "\nCe produs doriti sa stergeti? ";
 				input = controller.chooseInput(1, user.getCartSize());
 				user.deleteItemFromCart(produseDisponibile, input);
+			}
+			else if (input == 5) {
+				if (user.getCartSize()) {
+					controller.sendOrder(user);
+				}
+				else {
+					cout << "Nu aveti produse in cos!\n";
+				}
 			}
 		}
 	}

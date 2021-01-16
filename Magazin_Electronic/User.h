@@ -31,5 +31,6 @@ public:
 	void addToCart(Produs* produs);
 	void showCart();
 	void deleteItemFromCart(vector<Produs*> &produseMagazin, int index);
+	string prepareOrder();
 };
 

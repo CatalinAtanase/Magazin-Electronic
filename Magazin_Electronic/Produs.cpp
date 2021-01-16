@@ -177,6 +177,20 @@ Produs Produs::operator-=(int x) {
 	return *this;
 }
 
+ifstream& operator>>(ifstream& fin, Produs& p)
+{
+	fin.read((char*)&p.cod, sizeof(int));
+	fin.read((char*)&p.nume, sizeof(string));
+	fin.read((char*)&p.firma, sizeof(string));
+	fin.read((char*)&p.descriere, sizeof(string));
+	fin.read((char*)&p.pret, sizeof(float));
+	fin.read((char*)&p.garantie, sizeof(int));
+	fin.read((char*)&p.inStoc, sizeof(bool));
+	fin.read((char*)&p.isRedus, sizeof(bool));
+
+	return fin;
+}
+
 //destructor
 Produs::~Produs()
 {

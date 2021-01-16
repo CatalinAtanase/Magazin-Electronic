@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include "IProdus.h"
+#include<fstream>
 
 using namespace std;
 
@@ -46,5 +47,6 @@ public:
 	virtual void setAttributes();
 	//operator +=
 	Produs operator+=(int x);
+	friend ifstream& operator>>(ifstream& fin, Produs& p);
 };
 
