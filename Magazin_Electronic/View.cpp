@@ -8,6 +8,8 @@ void View::login() {
 	cout << "Login as:\n";
 	cout << "  1. Admin\n";
 	cout << "  2. User\n";
+
+	cout << "  0. Exit\n";
 }
 
 

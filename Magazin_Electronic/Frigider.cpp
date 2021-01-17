@@ -81,28 +81,75 @@ void Frigider::setAttributes() {
 	int iInput;
 
 	cout << "\nIntroduceti nume: ";
-	cin >> sInput;
+	getline(cin, sInput);
+	getline(cin, sInput);
 	setNume(sInput);
 
 	cout << "\nIntroduceti cod: ";
 	cin >> iInput;
-	setCod(iInput);
+	if (!cin.good()) {
+		cin.clear();
+		cin.ignore(9999, '\n');
+	}
+	else {
+		setCod(iInput);
+	};
 
 	cout << "\nIntroduceti firma: ";
-	cin >> sInput;
+	getline(cin, sInput);
+	getline(cin, sInput);
 	setFirma(sInput);
 
 	cout << "\nIntroduceti descriere: ";
-	cin >> sInput;
-	setFirma(sInput);
+	getline(cin, sInput);
+	getline(cin, sInput);
+	setDescriere(sInput);
 
-	//cout << "\nIntroduceti pret: ";
-	//cin >> fInput;
-	//setPret(fInput);
+	cout << "\nIntroduceti pret: ";
+	cin >> fInput;
+	if (!cin.good()) {
+		cin.clear();
+		cin.ignore(9999, '\n');
+	}
+	else {
+		setPret(fInput);
+	};
 
-	//cout << "\nIntroduceti greutate: ";
-	//cin >> fInput;
-	//setPret(fInput);
+
+	cout << "\nIntroduceti greutate: ";
+	cin >> fInput;
+	if (!cin.good()) {
+		cin.clear();
+		cin.ignore(9999, '\n');
+	}
+	else {
+		setGreutate(fInput);
+	};
+
+	cout << "\nIntroduceti clasa energetica: ";
+	getline(cin, sInput);
+	getline(cin, sInput);
+	setClasaEnergetica(sInput);
+
+	cout << "\nIntroduceti numar usi: ";
+	cin >> iInput;
+	if (!cin.good()) {
+		cin.clear();
+		cin.ignore(9999, '\n');
+	}
+	else {
+		setNrUsi(iInput);
+	};
+
+	cout << "\nIntroduceti capacitate: ";
+	cin >> iInput;
+	if (!cin.good()) {
+		cin.clear();
+		cin.ignore(9999, '\n');
+	}
+	else {
+		setCapacitate(iInput);
+	};
 }
 
 string Frigider::toString() {
@@ -114,6 +161,5 @@ string Frigider::toString() {
 		"\nClasa energetica: " + this->getClasaEnergetica() +
 		"\nNumar usi: " + to_string(this->getNrUsi()) +
 		"\nSmart: " + (this->IsSmart() ? "Da" : "Nu") +
-		"\nIn stoc: " + (this->isInStoc() ? "Da" : "Nu") +
 		"\n";
 }

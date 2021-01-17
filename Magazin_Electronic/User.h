@@ -5,6 +5,8 @@
 #include "Produs.h"
 #include "IUser.h"
 
+using namespace std;
+
 
 class User : public IUser{
 protected:
@@ -31,6 +33,6 @@ public:
 	void addToCart(Produs* produs);
 	void showCart();
 	void deleteItemFromCart(vector<Produs*> &produseMagazin, int index);
-	string prepareOrder();
+	string prepareOrder(string adresa);
 };
 

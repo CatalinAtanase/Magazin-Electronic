@@ -17,6 +17,7 @@ int Controller::chooseInput(int start, int finish) {
 		cin >> input;
 		wrongInput = true;
 	} while (input < start || input > finish);
+	system("CLS");
 
 	return input;
 }
@@ -42,13 +43,6 @@ void Controller::getProducts() {
 	in.close();
 }
 
-
-//void Controller::addProduct(string product) {
-//	ofstream out;
-//	out.open("products.bin", ios::out | ios::binary | ios_base::app);
-//	out << product << endl;
-//	out.close();
-//}
 
 void Controller::addProduct(Produs* product) {
 	ofstream out("test.bin", ios::binary | ios_base::app);
@@ -112,16 +106,22 @@ void Controller::deleteAllProducts() {
 void Controller::sendOrder(User u) {
 	ofstream out;
 	int size;
-	size = u.prepareOrder().size();
+	string adresa;
+
+	cout << "\nAdresa: ";
+	getline(cin, adresa);
+	getline(cin, adresa);
+
+	size = u.prepareOrder(adresa).size();
 
 	out.open("comenzi.bin", ios::binary | ios::app);
 	out.write((char*)&size, sizeof(int));
-	out.write((char*)&u.prepareOrder()[0], size);
+	out.write((char*)&u.prepareOrder(adresa)[0], size);
 	out.close();
 
 	out.open("comanda" + u.getNume() + u.getPrenume()+".txt", ios::app);
 	out.write((char*)&size, sizeof(int));
-	out.write((char*)&u.prepareOrder()[0], size);
+	out.write((char*)&u.prepareOrder(adresa)[0], size);
 	cout << "Detalii comanda trimise la " + u.getEmail() << endl;
 	out.close();
 }

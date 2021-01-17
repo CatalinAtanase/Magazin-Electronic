@@ -1,270 +1,314 @@
-Tip Produs: Teleofon
-Nume: Telefon
-cod: 1000
-Firma: Apple
-Descriere: Descriere
-Pret: 3000.000000Grantie: 1
-In stoc: Da
-Pret Redus: Da
-Greutate: 2.000000
-Smart: Da
-Procesor: Procesor
-Diagonala: 12.200000
-
-Tip Produs: Teleofon
-Nume: Telefon
-cod: 1000
-Firma: Apple
-Descriere: Descriere
-Pret: 3000.000000Grantie: 1
-In stoc: Da
-Pret Redus: Da
-Greutate: 2.000000
-Smart: Da
-Procesor: Procesor
-Diagonala: 12.200000
-
-Tip Produs: Teleofon
-Nume: Telefon
-cod: 1000
-Firma: Apple
-Descriere: Descriere
-Pret: 3000.000000
-Grantie: 1
-In stoc: Da
-Pret Redus: Da
-Greutate: 2.000000
-Smart: Da
-Procesor: Procesor
-Diagonala: 12.200000
-
-Tip Produs: Teleofon
-Nume: N
-cod: 1
-Firma: D
-Descriere: Acest produs nu are descriere.
-Pret: 0.000000
-Grantie: 0
-In stoc: Nu
-Pret Redus: Nu
-Greutate: 0.000000
-Smart: Nu
-Procesor: hexa-core
-Diagonala: 0.000000
-
-Tip Produs: Teleofon
-Nume: N
-cod: 1
-Firma: D
-Descriere: Acest produs nu are descriere.
+Nume: frig
+Firma: 2
+Descriere: Frigider practic
 Pret: 2.000000
-Grantie: 0
+Greutate: 89.000000
+Clasa energetica: 2
+Numar usi: 2
+Smart: Da
 In stoc: Nu
-Pret Redus: Nu
-Greutate: 0.000000
-Smart: Nu
-Procesor: Pro
-Diagonala: 0.000000
+
+Nume: 2
+Firma: 2
+Descriere: Super mega tv, calitate buna
+Pret: 64500.000000
+Greutate: 12.570000
+Clasa energetica: 2
+Diagonala: 2.000000
+Smart: Da
+In stoc: Da
 
 Tip Produs: Teleofon
-Nume: n
-cod: 1
-Firma: n
-Descriere: Acest produs nu are descriere.
-Pret: 1.000000
-Grantie: 0
-In stoc: Nu
-Pret Redus: Nu
-Greutate: 0.000000
-Smart: Nu
-Procesor: n
-Diagonala: 0.000000
+Nume: a
+cod: 2000
+Firma: a
+Descriere: a
+Pret: 70100.000000
+Grantie: 3
+In stoc: Da
+Pret Redus: Da
+Greutate: 0.712000
+Smart: Da
+Procesor: a
+Diagonala: -107374176.000000
 
 Tip Produs: Teleofon
-Nume: s
-cod: 1
-Firma: s
-Descriere: Acest produs nu are descriere.
+Nume: c
+cod: 2000
+Firma: c
+Descriere: c
+Pret: 70100.000000
+Grantie: 3
+In stoc: Da
+Pret Redus: Da
+Greutate: 0.712000
+Smart: Da
+Procesor: c
+Diagonala: -107374176.000000
+
+Tip Produs: Teleofon
+Nume: c
+cod: 2000
+Firma: c
+Descriere: c
 Pret: 0.000000
-Grantie: 0
-In stoc: Nu
-Pret Redus: Nu
+Grantie: 3
+In stoc: Da
+Pret Redus: Da
 Greutate: 0.000000
-Smart: Nu
-Procesor: s
-Diagonala: 0.000000
-
-Tip Produs: Teleofon
-Nume: Telefon
-cod: 1000
-Firma: Apple
-Descriere: Descriere
-Pret: 3000.000000
-Grantie: 1
-In stoc: Da
-Pret Redus: Da
-Greutate: 2.000000
 Smart: Da
-Procesor: Procesor
-Diagonala: 12.200000
+Procesor: c
+Diagonala: 12.300000
 
 Tip Produs: Teleofon
-Nume: Telefon
-cod: 1000
-Firma: Apple
-Descriere: Descriere
-Pret: 3000.000000
-Grantie: 1
-In stoc: Da
-Pret Redus: Da
-Greutate: 2.000000
-Smart: Da
-Procesor: Procesor
-Diagonala: 12.200000
-
-Tip Produs: Teleofon
-Nume: Telefon
-cod: 1000
-Firma: Apple
-Descriere: Descriere
-Pret: 3000.000000
-Grantie: 1
-In stoc: Da
-Pret Redus: Da
-Greutate: 2.000000
-Smart: Da
-Procesor: Procesor
-Diagonala: 12.200000
-
-Tip Produs: Teleofon
-Nume: Telefon
-cod: 1000
-Firma: Apple
-Descriere: Descriere
-Pret: 3000.000000
-Grantie: 1
-In stoc: Da
-Pret Redus: Da
-Greutate: 2.000000
-Smart: Da
-Procesor: Procesor
-Diagonala: 12.200000
-
-Tip Produs: Teleofon
-Nume: Telefon
-cod: 1000
-Firma: Apple
-Descriere: Descriere
-Pret: 3000.000000
-Grantie: 1
-In stoc: Da
-Pret Redus: Da
-Greutate: 2.000000
-Smart: Da
-Procesor: Procesor
-Diagonala: 12.200000
-
-Tip Produs: Teleofon
-Nume: n
-cod: 1
+Nume: d
+cod: 2000
 Firma: d
-Descriere: Descriere
-Pret: 1.000000
-Grantie: 1
+Descriere: d
+Pret: 70100.000000
+Grantie: 3
 In stoc: Da
 Pret Redus: Da
-Greutate: 2.000000
+Greutate: 0.712000
 Smart: Da
 Procesor: d
-Diagonala: 12.200000
+Diagonala: 12.300000
 
 Nume: d
 Firma: d
-Descriere: Super mega tv, negrul e negru
+Descriere: d
 Pret: 64500.000000
 Greutate: 12.570000
-Clasa energetica: A++
+Clasa energetica: d
+Diagonala: 41.000000
+Smart: Da
+In stoc: Da
+
+Nume: c
+Firma: c
+Descriere: c
+Pret: 64500.000000
+Greutate: 12.570000
+Clasa energetica: c
 Diagonala: 41.000000
 Smart: Da
 In stoc: Da
 
 Tip Produs: Teleofon
 Nume: d
-cod: 1
+cod: 2000
 Firma: d
-Descriere: Descriere
-Pret: 1.000000
-Grantie: 1
+Descriere: d
+Pret: 70100.000000
+Grantie: 3
 In stoc: Da
 Pret Redus: Da
-Greutate: 2.000000
+Greutate: 0.712000
 Smart: Da
 Procesor: d
-Diagonala: 12.200000
+Diagonala: 12.300000
 
 Tip Produs: Teleofon
-Nume: d
+Nume: 
 cod: 1
-Firma: d
-Descriere: Descriere
+Firma: 1
+Descriere: 1
 Pret: 1.000000
-Grantie: 1
+Grantie: 3
 In stoc: Da
 Pret Redus: Da
-Greutate: 2.000000
+Greutate: 1.000000
 Smart: Da
-Procesor: d
-Diagonala: 12.200000
-
-Nume: d
-Firma: d
-Descriere: Scump
-Pret: 100000.000000
-Greutate: 89.000000
-Clasa energetica: A+++
-Numar usi: 4
-Smart: Da
-In stoc: Nu
+Procesor: 1
+Diagonala: 1.000000
 
 Tip Produs: Teleofon
-Nume: c c 
-cod: 1000
-Firma: c c 
-Descriere: Descriere
-Pret: 3000.000000
-Grantie: 1
-In stoc: Da
-Pret Redus: Da
-Greutate: 2.000000
-Smart: Da
-Procesor: c c 
-Diagonala: 12.200000
-
-Tip Produs: Teleofon
-Nume: d
+Nume: nume telefon
 cod: 1
-Firma: d
-Descriere: Descriere
+Firma: 1
+Descriere: 1
 Pret: 1.000000
-Grantie: 1
+Grantie: 3
 In stoc: Da
 Pret Redus: Da
-Greutate: 2.000000
+Greutate: 1.000000
 Smart: Da
-Procesor: d
-Diagonala: 12.200000
+Procesor: 1
+Diagonala: 1.000000
+
+Tip Produs: Teleofon
+Nume: tel m
+cod: 1
+Firma: firma m
+Descriere: 
+Pret: 100.000000
+Grantie: 3
+In stoc: Da
+Pret Redus: Da
+Greutate: 100.000000
+Smart: Da
+Procesor: proc p
+Diagonala: 100.000000
+
+Tip Produs: Teleofon
+Nume: n n
+cod: 1
+Firma: n n
+Descriere: n n
+Pret: 1.000000
+Grantie: 3
+In stoc: Da
+Pret Redus: Da
+Greutate: 1.000000
+Smart: Da
+Procesor: p p
+Diagonala: 1.000000
+
+Tip Produs: Teleofon
+Nume: n
+cod: 1
+Firma: 1
+Descriere: 1
+Pret: 1.000000
+Grantie: 3
+In stoc: Da
+Pret Redus: Da
+Greutate: 1.000000
+Smart: Da
+Procesor: 1
+Diagonala: 1.000000
 
 Tip Produs: Teleofon
 Nume: c
-cod: 1
-Firma: d
-Descriere: Descriere
+cod: 0
+Firma: c
+Descriere: d
 Pret: 1.000000
-Grantie: 1
-In stoc: Da
-Pret Redus: Da
+Grantie: 0
+In stoc: Nu
+Pret Redus: Nu
+Greutate: 1.000000
+Smart: Nu
+Procesor: 1
+Diagonala: 1.000000
+
+Tip Produs: Teleofon
+Nume: n n
+cod: 1
+Firma: d d
+Descriere: d d
+Pret: 1.000000
+Grantie: 0
+In stoc: Nu
+Pret Redus: Nu
+Greutate: 1.000000
+Smart: Nu
+Procesor: 1
+Diagonala: 1.000000
+
+Tip Produs: Teleofon
+Nume: alt tel
+cod: 1
+Firma: firma
+Descriere: descr
+Pret: 1.000000
+Grantie: 0
+In stoc: Nu
+Pret Redus: Nu
+Greutate: 100.000000
+Smart: Nu
+Procesor: 5
+Diagonala: 2.000000
+
+Tip Produs: Teleofon
+Nume: tel tel
+cod: 1
+Firma: firma f
+Descriere: desc d
+Pret: 1.000000
+Grantie: 0
+In stoc: Nu
+Pret Redus: Nu
+Greutate: 1.000000
+Smart: Nu
+Procesor: 1
+Diagonala: 1.000000
+
+Tip Produs: Teleofon
+Nume: 1
+cod: 1
+Firma: 1
+Descriere: 1
+Pret: 1.000000
+Grantie: 0
+In stoc: Nu
+Pret Redus: Nu
+Greutate: 1.000000
+Smart: Nu
+Procesor: 1
+Diagonala: 1.000000
+
+Nume: f f
+Firma: d
+Descriere: d d
+Pret: 0.000000
+Greutate: 0.000000
+Clasa energetica: 
+Diagonala: 1.000000
+Smart: Nu
+In stoc: Nu
+
+Nume: frig
+Firma: f
+Descriere: f
+Pret: 1.000000
+Greutate: 1.000000
+Clasa energetica: 1
+Numar usi: 1
+Smart: Nu
+In stoc: Nu
+
+Tip Produs: Teleofon
+Nume: a a
+cod: 2
+Firma: d d
+Descriere: ff
+Pret: 0.000000
+Grantie: 0
+Pret Redus: Nu
 Greutate: 2.000000
-Smart: Da
+Smart: Nu
 Procesor: d
-Diagonala: 12.200000
+Diagonala: 2.000000
+
+Nume: c
+Firma: c
+Descriere: c
+Pret: 0.000000
+Greutate: 0.000000
+Clasa energetica: c
+Diagonala: 40.000000
+Smart: NuRezolutie: c
+
+Nume: 1
+Firma: 1
+Descriere: 1
+Pret: 1.000000
+Greutate: 1.000000
+Clasa energetica: 1
+Numar usi: 1
+Smart: Nu
+
+Tip Produs: Teleofon
+Nume: 1
+cod: 1
+Firma: 1
+Descriere: 1
+Pret: 1.000000
+Grantie: 0
+Pret Redus: Nu
+Greutate: 1.000000
+Smart: Nu
+Procesor: 1
+Diagonala: 1.000000
 

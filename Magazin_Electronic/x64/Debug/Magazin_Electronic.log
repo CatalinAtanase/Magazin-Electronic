@@ -1,3 +1,5 @@
-﻿  User.cpp
-d:\faculta\an_2\s1\poo\proiect\code\magazin-electronic\magazin_electronic\user.cpp(63): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+﻿  Controller.cpp
+d:\faculta\an_2\s1\poo\proiect\code\magazin-electronic\magazin_electronic\controller.cpp(115): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\faculta\an_2\s1\poo\proiect\code\magazin-electronic\magazin_electronic\controller.cpp(136): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+d:\faculta\an_2\s1\poo\proiect\code\magazin-electronic\magazin_electronic\controller.cpp(153): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   Magazin_Electronic.vcxproj -> D:\Faculta\An_2\S1\Poo\proiect\Code\Magazin-Electronic\x64\Debug\Magazin_Electronic.exe

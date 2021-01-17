@@ -83,28 +83,60 @@ void Tv::setAttributes() {
 	int iInput;
 
 	cout << "\nIntroduceti nume: ";
-	cin >> sInput;
+	getline(cin, sInput);
+	getline(cin, sInput);
 	setNume(sInput);
 
 	cout << "\nIntroduceti cod: ";
 	cin >> iInput;
-	setCod(iInput);
+	if (!cin.good()) {
+		cin.clear();
+		cin.ignore(9999, '\n');
+	}
+	else {
+		setCod(iInput);
+	};
 
 	cout << "\nIntroduceti firma: ";
 	cin >> sInput;
-	setFirma(sInput);
+	if (!cin.good()) {
+		cin.clear();
+		cin.ignore(9999, '\n');
+	}
+	else {
+		setFirma(sInput);
+	};
 
 	cout << "\nIntroduceti descriere: ";
-	cin >> sInput;
-	setFirma(sInput);
+	getline(cin, sInput);
+	getline(cin, sInput);
+	setDescriere(sInput);
 
-	//cout << "\nIntroduceti pret: ";
-	//cin >> fInput;
-	//setPret(fInput);
+	//string clasaEnergetica, float diagonala, string tipDisplay, string rezolutie
+	cout << "\nIntroduceti clasa energetica: ";
+	getline(cin, sInput);
+	getline(cin, sInput);
+	setClasaEnergetica(sInput);
 
-	//cout << "\nIntroduceti greutate: ";
-	//cin >> fInput;
-	//setPret(fInput);
+	cout << "\nIntroduceti diagonala: ";
+	cin >> fInput;
+	if (!cin.good()) {
+		cin.clear();
+		cin.ignore(9999, '\n');
+	}
+	else {
+		setDiagonala(fInput);
+	};
+
+	cout << "\nIntroduceti tip display: ";
+	getline(cin, sInput);
+	getline(cin, sInput);
+	setTipDisplay(sInput);
+
+	cout << "\nIntroduceti rezolutie: ";
+	getline(cin, sInput);
+	getline(cin, sInput);
+	setRezolutie(sInput);
 }
 
 
@@ -118,6 +150,6 @@ string Tv::toString() {
 		"\nClasa energetica: " + this->getClasaEnergetica() +
 		"\nDiagonala: " + to_string(this->getDiagonala()) +
 		"\nSmart: " + (this->IsSmart() ? "Da" : "Nu") +
-		"\nIn stoc: " + (this->isInStoc() ? "Da" : "Nu") +
+		"\Rezolutie: " + this->getRezolutie() +
 		"\n";
 }

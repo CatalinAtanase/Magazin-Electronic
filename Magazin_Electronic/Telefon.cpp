@@ -129,43 +129,82 @@ void Telefon::setAttributes() {
 	int iInput;
 
 	cout << "\nIntroduceti nume: ";
-	cin >> sInput;
+	getline(cin, sInput);
+	getline(cin, sInput);
 	setNume(sInput);
 
 	cout << "\nIntroduceti cod: ";
 	cin >> iInput;
-	setCod(iInput);
+	if (!cin.good()) {
+		cin.clear();
+		cin.ignore(9999, '\n');
+	}
+	else {
+		setCod(iInput);
+	}
 
 	cout << "\nIntroduceti firma: ";
-	cin >> sInput;
+	getline(cin, sInput);
+	getline(cin, sInput);
 	setFirma(sInput);
 
 	cout << "\nIntroduceti descriere: ";
-	cin >> sInput;
-	setFirma(sInput);
+	getline(cin, sInput);
+	setDescriere(sInput);
 
 	cout << "\nIntroduceti pret: ";
 	cin >> fInput;
-	setPret(fInput);
+	if (!cin.good()) {
+		cin.clear();
+		cin.ignore(9999, '\n');
+	}
+	else {
+		setPret(fInput);
+	}
 
 	cout << "\nIntroduceti greutate: ";
 	cin >> fInput;
-	setPret(fInput);
+	if (!cin.good()) {
+		cin.clear();
+		cin.ignore(9999, '\n');
+	}
+	else {
+		setGreutate(fInput);
+	}
 
 	cout << "\nIntroduceti diagonala: ";
 	cin >> fInput;
-	setPret(fInput);
+	if (!cin.good()) {
+		cin.clear();
+		cin.ignore(9999, '\n');
+	}
+	else {
+		setDiagonala(fInput);
+	};
 
-	/*cout << "\nIntroduceti capacitate baterie: ";
+	cout << "\nIntroduceti capacitate baterie: ";
 	cin >> iInput;
-	setBaterie(iInput)*/;
+	if (!cin.good()) {
+		cin.clear();
+		cin.ignore(9999, '\n');
+	}
+	else {
+		setCapacitateBaterie(iInput);
+	};
 
-	//cout << "\nIntroduceti numar camere: ";
-	//cin >> iInput;
-	//setNr(iInput);
+	cout << "\nIntroduceti numar camere: ";
+	cin >> iInput;
+	if (!cin.good()) {
+		cin.clear();
+		cin.ignore(9999, '\n');
+	}
+	else {
+		setNrCamere(iInput);
+	};
 
 	cout << "\nIntroduceti procesor: ";
-	cin >> sInput;
+	getline(cin, sInput);
+	getline(cin, sInput);
 	setProcesor(sInput);
 }
 
@@ -180,7 +219,6 @@ string Telefon::toString() {
 		"\nDescriere: " + this->getDescriere() +
 		"\nPret: " + to_string(this->getPret()) +
 		"\nGrantie: " + to_string(this->getGarantie()) +
-		"\nIn stoc: " + (this->isInStoc() ? "Da" : "Nu") +
 		"\nPret Redus: " + (this->isInStoc() ? "Da" : "Nu") +
 		"\nGreutate: " + to_string(this->getGreutate()) +
 		"\nSmart: " + (this->IsSmart() ? "Da" : "Nu") +
